@@ -1,5 +1,7 @@
+//properties file
+
 exports.mongodb = function() {
-  return 'mongodb://localhost/test';
+  return process.env.MONGOLAB_URI || 'mongodb://localhost/test' ; 
 }
 
 exports.baseUrl = function() {
