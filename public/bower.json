@@ -1,0 +1,21 @@
+{
+  "name": "ngclient",
+  "version": "0.1.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "1.5.8",
+    "angular-route": "~1.2.23"
+  },
+  "resolutions": {
+    "bootstrap": "^3.3.7",
+    "angular": "1.5.8"
+  }
+}
