@@ -41,9 +41,9 @@ myApp.config(function($routeProvider, $httpProvider) {
 });
 
 myApp.constant("myConfig", {
-    "baseUrl": "http://localhost",
+    "baseUrl": "https://testnodejscompa.herokuapp.com",
     "port":  "3000",
-    "url": "http://localhost:3000"
+    "url": "https://testnodejscompa.herokuapp.com"
 });
 
 myApp.run(function($rootScope, $window, $location, AuthenticationFactory) {
